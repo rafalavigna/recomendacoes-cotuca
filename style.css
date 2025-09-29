@@ -9,8 +9,8 @@ font-family: 'Lato', sans-serif;      <-- For Body Text
 body {
   font-family: 'Montserrat', sans-serif;
   line-height: 1.5;
-  margin-left: 350px;
-  margin-right: 350px;
+  margin-left: 200px;
+  margin-right: 200px;
 }
 
 body::before {
@@ -27,14 +27,6 @@ body::before {
   z-index: -1;
   opacity: 0.16;
 }
-
-#precoltec-logo {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 50px;
-}
-
 
 .header {
   position: relative;
@@ -169,5 +161,6 @@ li {
     margin-left: 0;
     margin-right: 0;
   }
+
 
 }
