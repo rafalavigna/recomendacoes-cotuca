@@ -55,9 +55,7 @@ body::before {
   background-position: center;
   background-repeat: no-repeat;
   opacity: 0.7;
-  /* Desired opacity */
-  z-index: -1;
-  /* Place behind the content of .header */
+   z-index: -1;
 }
 
 a {
@@ -95,7 +93,7 @@ h1 {
     2px 2px 4px rgba(0, 0, 0, 0.8);
 }
 
-#data-hora {
+.data {
   text-align: center;
   font-size: 1.3rem;
   color: darkred;
